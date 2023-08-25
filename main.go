@@ -38,6 +38,6 @@ func init(){
 
 func main() {
 	if RunType == RUN_TYPE_CONSOLE{
-		ConsoleCalculator()
+		ConsoleConverter()
 	}
 }

@@ -10,7 +10,7 @@ import (
 
 var converterRequest ConverterRequest
 
-func ConsoleCalculator(){
+func ConsoleConverter(){
 	var err error
 	converterRequest.amount, err = getInputFloat("amount")
 	errorHandler(err)
