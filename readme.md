@@ -35,6 +35,7 @@ go build -o [target] .
 #set up env like above
 
 #run binary
+```
 
 
 ## Usage
