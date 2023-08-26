@@ -12,7 +12,7 @@ go run . -h
 go run . -run=console
 
 # To run API
-go run . -run=console
+go run . -run=api
 ```
 
 ## Usage
