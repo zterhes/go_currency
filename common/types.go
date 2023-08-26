@@ -1,4 +1,4 @@
-package main
+package common
 
 type FixerResponse struct {
 	Success bool
@@ -8,9 +8,9 @@ type FixerResponse struct {
 }
 
 type ConverterRequest struct{
-	inputCurrency string
-	outputCurrency string
-	amount float64
+	InputCurrency string
+	OutputCurrency string
+	Amount float64
 }
 
 type NotImplemented struct{}
